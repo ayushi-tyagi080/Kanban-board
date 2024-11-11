@@ -14,9 +14,6 @@ A simple and interactive Kanban board built using **React** and **React Router**
 - **Responsive Layout**: The board layout is responsive and adapts to different screen sizes.
 - **Interactive UI**: Built with React for smooth and efficient rendering.
 
-## Screenshots
-
-![Kanban Board](https://link_to_image.com/kanban_board_screenshot)
 
 ## Getting Started
 
