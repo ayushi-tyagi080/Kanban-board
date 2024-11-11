@@ -1,6 +1,3 @@
-Here’s a sample README for your GitHub repository of the Kanban board:
-
----
 
 # Kanban Board
 
