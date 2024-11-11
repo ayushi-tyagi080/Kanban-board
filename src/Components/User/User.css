@@ -1,0 +1,108 @@
+.user-board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1px;
+    margin: 20px;
+}
+
+.user-column {
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+.ticket-card {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.ticket-card h4 {
+    font-size: 14px;
+}
+
+.ticket-card p {
+    font-size: 12px;
+}
+
+
+/* User card for each user */
+.user-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 300x;
+}
+
+.user-card {
+    flex: 1;
+    min-width: 220px;
+    /* Ensures cards are not too wide */
+    max-width: 270px;
+    /* Limits maximum width */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Title and additional icon */
+.user-card h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.user-card .feather-more-horizontal {
+    cursor: pointer;
+}
+
+/* Ticket list within each user card */
+.tickets-list {
+    margin-top: 10px;
+    width: 100%;
+}
+
+/* Individual ticket card */
+.ticket-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Ticket title */
+.ticket-card h4 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Ticket status and priority */
+.ticket-card p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Button for navigation */
+button {
+    padding: 10px 20px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
